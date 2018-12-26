@@ -1,0 +1,47 @@
+{
+  "name": "softwarefellowship",
+  "version": "1.0.0",
+  "description": "The project to be demonstrated at software fellowship program",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set DEBUG=app & nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peaceofmind123/softwareFellowship.git"
+  },
+  "author": "LOCUS2019",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peaceofmind123/softwareFellowship/issues"
+  },
+  "homepage": "https://github.com/peaceofmind123/softwareFellowship#readme",
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "cookie-parser": "1.4.3",
+    "debug": "4.1.0",
+    "express": "4.16.4",
+    "express-session": "1.15.6",
+    "express-validator": "5.3.0",
+    "formidable": "1.2.1",
+    "morgan": "1.9.1",
+    "nodemon": "1.18.9",
+    "npm": "6.5.0",
+    "passport": "0.4.0",
+    "passport-http": "0.3.0",
+    "passport-local": "1.0.0",
+    "pg": "7.7.1",
+    "pg-hstore": "2.3.2",
+    "sequelize": "4.42.0"
+  },
+  "nodemonConfig": {
+    "restartable": "rs",
+    "ignore": "node_modules/**/node_modules",
+    "delay": "2500",
+    "env": {
+      "NODE_ENV": "development",
+      "PORT": 8000
+    }
+  }
+}
